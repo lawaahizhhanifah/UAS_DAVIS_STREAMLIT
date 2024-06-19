@@ -9,7 +9,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 #########################################
 # Membuat koneksi ke database
-db_engine = create_engine('mysql+mysqlconnector://root:@localhost:3307/davis_adventureworks')
+#db_engine = create_engine('mysql+mysqlconnector://root:@localhost:3307/davis_adventureworks')
 
 def create_connection():
     host = "kubela.id"
