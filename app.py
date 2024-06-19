@@ -11,30 +11,39 @@ st.markdown("<br>", unsafe_allow_html=True)
 # Membuat koneksi ke database
 db_engine = create_engine('mysql+mysqlconnector://root:@localhost:3307/davis_adventureworks')
 
+def create_connection():
+    host = "kubela.id"
+    port = 3307
+    user = "davis2024irwan"
+    password = "wh451n9m@ch1n3"
+    database = "aw"
+    
+    try:
+        connection = pymysql.connect(
+            host=host,
+            port=port,
+            user=user,
+            password=password,
+            database=database
+        )
+        return connection
+    except Exception as e:
+        st.error(f"Error connecting to database: {e}")
+        return None
 
-#########################################
-# Sidebar
-#with st.sidebar:
-    #st.title('Penjualan Produk Adventure Works :page_with_curl:')
-    #SELETCBOX
-    # Query SQL untuk mengambil tahun dari data
-    #query_years = #"""
-        #SELECT DISTINCT SUBSTRING(FullDateAlternateKey, 1, 4) AS Year
-        #FROM dimtime;
-    #"""
-
-    # Baca data tahun dari database ke dalam DataFrame
-    #years_data = pd.read_sql(query_years, db_engine)
-
-    # Konversi data tahun menjadi list
-    #years_list = years_data['Year'].tolist()
-
-    # Pilih tahun dari opsi dropdown di sidebar
-    #selected_year = st.sidebar.selectbox("Pilih Tahun", years_list)
-
-    # Pilih tahun dari opsi dropdown
-    #selected_year = st.selectbox("Pilih Tahun", years_list)
-
+# Fungsi untuk menjalankan query dan mendapatkan data
+def fetch_data(query):
+    connection = create_connection()
+    if connection is None:
+        return None
+    try:
+        df = pd.read_sql_query(query, connection)
+        return df
+    except Exception as e:
+        st.error(f"Error executing query: {e}")
+        return None
+    finally:
+        connection.close()
 
 #########################################
 #COMPARISON
