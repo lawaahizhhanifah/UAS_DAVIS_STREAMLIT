@@ -7,7 +7,7 @@ st.header('Top Box Office IMDB :page_with_curl:', divider='grey')
 st.markdown("<br>", unsafe_allow_html=True)
 
 # Membaca data dari file CSV
-df = pd.read_csv('C:\\Users\\ali.imran\\Downloads\\SEM 6\\DAVIS\\STREAMLIT_DAVIS\\imdb_combine.csv', delimiter=';')
+df = pd.read_csv('imdb_combine.csv', delimiter=';')
 
 # Menampilkan DataFrame dalam bentuk tabel
 #st.write("Data IMDb Combined")
