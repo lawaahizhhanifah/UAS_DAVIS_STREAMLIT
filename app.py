@@ -52,11 +52,11 @@ st.subheader("***Comparison***")
 
 # Ambil data dari tabel dimpromotion
 select_dimpromotion = "SELECT EnglishPromotionName, PromotionKey FROM dimpromotion"
-promotion = pd.read_sql(select_dimpromotion, db_engine)
+promotion = pd.read_sql(select_dimpromotion, fetch_data)
 
 # Ambil data dari tabel factinternetsales
 select_salesamount = "SELECT SalesAmount, PromotionKey FROM factinternetsales"
-sales_amount = pd.read_sql(select_salesamount, db_engine)
+sales_amount = pd.read_sql(select_salesamount, fetch_data)
 
 # Gabungkan data dari kedua tabel berdasarkan PromotionKey
 data = pd.merge(promotion, sales_amount, on='PromotionKey')
@@ -100,11 +100,11 @@ st.divider()
 st.subheader("***Composition***")
 # Ambil data dari tabel dimgeography
 select_dimgeography = "SELECT EnglishCountryRegionName, SalesTerritoryKey FROM dimgeography" 
-territory = pd.read_sql(select_dimgeography, db_engine)
+territory = pd.read_sql(select_dimgeography, fetch_data)
 
 # Ambil data dari tabel factinternetsales
 select_salesamount = "SELECT SalesAmount, SalesTerritoryKey FROM factinternetsales"  
-sales_amount = pd.read_sql(select_salesamount, db_engine)
+sales_amount = pd.read_sql(select_salesamount, fetch_data)
 
 # Gabungkan data dari kedua tabel berdasarkan SalesTerritoryKey
 data = pd.merge(territory, sales_amount, on='SalesTerritoryKey')
@@ -147,7 +147,7 @@ st.divider()
 st.subheader("***Relationship***")
 # Ambil data dari tabel factinternetsales
 select_data = "SELECT UnitPrice, OrderQuantity  FROM factinternetsales" 
-data = pd.read_sql(select_data, db_engine)
+data = pd.read_sql(select_data, fetch_data)
 
 # Plot scatter plot dengan Plotly
 fig = px.scatter(data, x='UnitPrice', y='OrderQuantity', title="Hubungan Harga Produk Dengan Jumlah Pesanan",
@@ -191,7 +191,7 @@ query_sales_by_month = """
 """
 
 # Baca data dari database ke dalam DataFrame
-sales_data = pd.read_sql(query_sales_by_month, db_engine)
+sales_data = pd.read_sql(query_sales_by_month, fetch_data)
 
 # Plot bar chart dengan Plotly
 fig = px.bar(sales_data, x='Month', y='TotalSales', title="Perkembangan Penjualan Tiap Bulan",
