@@ -19,7 +19,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 def create_connection():
     host = "kubela.id"
-    port = 3307
+    port = 3306
     user = "davis2024irwan"
     password = "wh451n9m@ch1n3"
     database = "aw"
