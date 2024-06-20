@@ -4,7 +4,7 @@ import plotly.express as px
 from sqlalchemy import create_engine
 import pymysql
 import random
-import squarify
+#import squarify
 from io import StringIO
 import os
 from gtts import gTTS
