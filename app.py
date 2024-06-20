@@ -2,6 +2,12 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from sqlalchemy import create_engine
+import pymysql
+import random
+import squarify
+from io import StringIO
+import os
+from gtts import gTTS
 
 st.header('Penjualan Produk Adventure Works :page_with_curl:', divider='grey')
 # Menyisipkan baris kosong
@@ -44,6 +50,9 @@ def fetch_data(query):
         return None
     finally:
         connection.close()
+        
+# Membuat koneksi ke database
+db_engine = create_engine("mysql+pymysql://davis2024irwan:wh451n9m%40ch1n3@kubela.id:3306/aw")
 
 #########################################
 #COMPARISON
@@ -52,11 +61,11 @@ st.subheader("***Comparison***")
 
 # Ambil data dari tabel dimpromotion
 select_dimpromotion = "SELECT EnglishPromotionName, PromotionKey FROM dimpromotion"
-promotion = pd.read_sql(select_dimpromotion, fetch_data)
+promotion = pd.read_sql(select_dimpromotion, db_engine)
 
 # Ambil data dari tabel factinternetsales
 select_salesamount = "SELECT SalesAmount, PromotionKey FROM factinternetsales"
-sales_amount = pd.read_sql(select_salesamount, fetch_data)
+sales_amount = pd.read_sql(select_salesamount, db_engine)
 
 # Gabungkan data dari kedua tabel berdasarkan PromotionKey
 data = pd.merge(promotion, sales_amount, on='PromotionKey')
@@ -100,11 +109,11 @@ st.divider()
 st.subheader("***Composition***")
 # Ambil data dari tabel dimgeography
 select_dimgeography = "SELECT EnglishCountryRegionName, SalesTerritoryKey FROM dimgeography" 
-territory = pd.read_sql(select_dimgeography, fetch_data)
+territory = pd.read_sql(select_dimgeography, db_engine)
 
 # Ambil data dari tabel factinternetsales
 select_salesamount = "SELECT SalesAmount, SalesTerritoryKey FROM factinternetsales"  
-sales_amount = pd.read_sql(select_salesamount, fetch_data)
+sales_amount = pd.read_sql(select_salesamount, db_engine)
 
 # Gabungkan data dari kedua tabel berdasarkan SalesTerritoryKey
 data = pd.merge(territory, sales_amount, on='SalesTerritoryKey')
@@ -147,7 +156,7 @@ st.divider()
 st.subheader("***Relationship***")
 # Ambil data dari tabel factinternetsales
 select_data = "SELECT UnitPrice, OrderQuantity  FROM factinternetsales" 
-data = pd.read_sql(select_data, fetch_data)
+data = pd.read_sql(select_data, db_engine)
 
 # Plot scatter plot dengan Plotly
 fig = px.scatter(data, x='UnitPrice', y='OrderQuantity', title="Hubungan Harga Produk Dengan Jumlah Pesanan",
@@ -191,7 +200,7 @@ query_sales_by_month = """
 """
 
 # Baca data dari database ke dalam DataFrame
-sales_data = pd.read_sql(query_sales_by_month, fetch_data)
+sales_data = pd.read_sql(query_sales_by_month, db_engine)
 
 # Plot bar chart dengan Plotly
 fig = px.bar(sales_data, x='Month', y='TotalSales', title="Perkembangan Penjualan Tiap Bulan",
