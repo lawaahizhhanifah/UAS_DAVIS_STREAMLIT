@@ -4,22 +4,15 @@ import plotly.express as px
 from sqlalchemy import create_engine
 import pymysql
 import random
-#import squarify
-#from io import StringIO
-#import os
-#from gtts import gTTS
 
 st.header('Penjualan Produk Adventure Works :page_with_curl:', divider='grey')
 # Menyisipkan baris kosong
 st.markdown("<br>", unsafe_allow_html=True)
 
 #########################################
-# Membuat koneksi ke database
-#db_engine = create_engine('mysql+mysqlconnector://root:@localhost:3307/davis_adventureworks')
-
 def create_connection():
     host = "kubela.id"
-    port = 3306
+    port = 3307
     user = "davis2024irwan"
     password = "wh451n9m@ch1n3"
     database = "aw"
