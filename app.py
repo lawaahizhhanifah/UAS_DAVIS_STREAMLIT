@@ -5,9 +5,9 @@ from sqlalchemy import create_engine
 import pymysql
 import random
 #import squarify
-from io import StringIO
-import os
-from gtts import gTTS
+#from io import StringIO
+#import os
+#from gtts import gTTS
 
 st.header('Penjualan Produk Adventure Works :page_with_curl:', divider='grey')
 # Menyisipkan baris kosong
