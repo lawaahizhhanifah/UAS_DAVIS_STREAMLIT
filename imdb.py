@@ -121,10 +121,7 @@ st.markdown('''
 
 Scatter Plot ini memvisualisasikan hubungan antara dua variabel yang dipilih dalam dataset film IMDB. 
 Setiap titik dalam plot mewakili satu film, dengan sumbu X dan Y masing-masing mewakili variabel yang dipilih (Gross US dan Gross World).
-Ini membantu dalam mengeksplorasi korelasi atau pola antara variabel-variabel tersebut:
-
-- **Variabel X:** {x_variable}
-- **Variabel Y:** {y_variable}
+Ini membantu dalam mengeksplorasi korelasi atau pola antara variabel-variabel tersebut
 
 **Insights:**
 - Scatter plot membantu untuk melihat sebaran data dan pola hubungan antara variabel-variabel tersebut.
