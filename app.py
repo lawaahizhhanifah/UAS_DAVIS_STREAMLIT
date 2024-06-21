@@ -83,7 +83,7 @@ st.markdown("""
 <div style="text-align: justify">
             
 Visualisasi ini menampilkan total penjualan produk berdasarkan promosi yang dilakukan. Setiap batang dalam diagram menunjukkan jumlah penjualan yang terkait dengan promosi tersebut. Terdapat 4 jenis promosi yaitu:
-- No Discount**
+- No Discount
 - Touring-1000 Promotion
 - Touring-3000 Promotion
 - Volume Discount 11 to 14
