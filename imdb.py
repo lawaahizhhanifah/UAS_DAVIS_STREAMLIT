@@ -25,7 +25,7 @@ st.plotly_chart(fig, use_container_width=True)
 st.markdown("""
 <div style="text-align: justify">
             
-Grafik batang ini membandingkan pendapatan minggu pertama dari berbagai film. Setiap batang mewakili satu film, dan tinggi batang menunjukkan pendapatan yang dihasilkan selama minggu pertama perilisan. Visualisasi ini membantu untuk mengidentifikasi dengan cepat film-film yang memiliki pendapatan minggu pertama lebih tinggi atau lebih rendah dibandingkan satu sama lai. Pada data film top box office IMDB, terdapat 10 film yang terdapat pada sumbu x dalam visualisasi di atas.
+Grafik batang ini membandingkan pendapatan minggu pertama dari berbagai film. Setiap batang mewakili satu film, dan tinggi batang menunjukkan pendapatan yang dihasilkan selama minggu pertama perilisan. Visualisasi ini membantu untuk mengidentifikasi dengan cepat film-film yang memiliki pendapatan minggu pertama lebih tinggi atau lebih rendah dibandingkan satu sama lain. Pada data film top box office IMDB, terdapat 10 film yang terdapat pada sumbu x dalam visualisasi di atas.
             
 **Insight:**
   - Mengidentifikasi film-film teratas berdasarkan pendapatan minggu pertama.
