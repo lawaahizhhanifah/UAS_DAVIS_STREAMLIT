@@ -90,10 +90,14 @@ Visualisasi ini menampilkan total penjualan produk berdasarkan promosi yang dila
 
 **Insights:**
 - **Promosi Terbaik:** Identifikasi promosi yang menghasilkan penjualan tertinggi.
+
 Dari 4 jenis promosi diatas, dapat diketahui bahwa jenis promosi No Discount memiliki total penjualan tertinggi sebesar 27.3 juta.
 - **Perbandingan Promosi:** Bandingkan kontribusi penjualan dari berbagai promosi secara visual.
+- **Perbandingan Promosi:** Bandingkan kontribusi penjualan dari berbagai promosi secara visual.
+
 Dari visualisasi di atas, dapat diketahui bahwa penjualan tanpa adanya diskon memiliki kontribusi terbesar dibanding promosi lainnya seperti Touring 1000 Promotion (tidak ada penjualan), Touring 3000 Promotion (tidak ada penjualan), dan Volume Discount 11 to 14 (2 juta).
 - **Efektivitas Promosi:** Evaluasi efektivitas berbagai promosi berdasarkan penjualan yang dihasilkan.
+
 Dapat dilihat dari visualisasi diatas bahwa dengan adanya promosi tersebut tidak berpengaruh besar terhadap peningkatan penjualan produk yang ditawarkan.
 
 Visualisasi ini membantu dalam memahami performa penjualan produk berdasarkan promosi yang dilakukan, serta membantu dalam pengambilan keputusan untuk strategi promosi yang lebih efektif. Dengan demikian dapat disimpulkan bahwa tanpa adanya diskon penjualan perusahaan dapat meningkat. Namun, jika perusahaan ingin meningkatkan penjualannya dapat menerapkan promosi dengan potongan harga yang menarik pada produk-produk tertentu.  
