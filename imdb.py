@@ -151,7 +151,7 @@ Bar chart di atas memvisualisasikan pendapatan Gross World dari film-film dalam 
 - **Tren Pendapatan:** Amati apakah pendapatan Gross World cenderung meningkat, menurun, atau stabil dari tahun ke tahun. Untuk **film yang dirilis pada tahun 2001 dan 2024** memiliki **peningkatan pada pendapatan Gross World-nya**. Peningkatan dapat dikatakan cukup signifikan karena memiliki **perbandingan jumlah yang cukup besar**.
 - **Perbandingan Tahunan:** Bandingkan kontribusi pendapatan dari berbagai tahun secara visual.Untuk top box office, **film pada tahun 2001** memiliki kontribusi **pendapatan yang paling sedikit (887 juta)** dikarenakan hanya film The Lord of the Rings: The Fellowship of the Ring yang masuk ke top box office. Konribusi paling besar yaitu dari film yang dirilis pada tahun 2024 (film selain The Lord of the Rings: The Fellowship of the Ring)
 
-    Visualisasi ini berguna untuk mendapatkan pemahaman tentang performa finansial tahunan film-film dalam dataset IMDB dan potensialnya untuk mengidentifikasi tahun-tahun yang paling sukses dari segi pendapatan global.
+Visualisasi ini berguna untuk mendapatkan pemahaman tentang performa finansial tahunan film-film dalam dataset IMDB dan potensialnya untuk mengidentifikasi tahun-tahun yang paling sukses dari segi pendapatan global.
 </div>
 ''', unsafe_allow_html=True)
 
