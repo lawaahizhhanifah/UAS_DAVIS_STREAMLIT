@@ -143,17 +143,14 @@ st.plotly_chart(fig)
 #Penjelasan
 st.markdown('''
 <div style="text-align: justify;">
-    Bar chart di atas memvisualisasikan pendapatan Gross World dari film-film dalam dataset IMDB per tahun. 
-    Ini memberikan gambaran tentang bagaimana total pendapatan global dari film-film tersebut berubah dari tahun ke tahun.
-    **Dimana batang sebelah kanan** menunjukkan **tahun 2001** dan **sebelah kiri tahun 2024**.
-    <br><br>
-    <strong>Insights:</strong>
-    <ul>
-        <li><strong>Tahun Terbaik:</strong> Identifikasi tahun dengan pendapatan Gross World tertinggi.</li> **Tahun 2024 (diagram batang sebelah kanan) memiliki pendapatan Gross World tertinggi** dengan nilai yang ditunjukkan sebesar **1.66 B**. Hal tersebut dikarenakan total seluruh Gross World dari film yang dirilis pada tahun 2024. Begitu juga dengan diagram batang sebelah kanan (2001).
-        <li><strong>Tren Pendapatan:</strong> Amati apakah pendapatan Gross World cenderung meningkat, menurun, atau stabil dari tahun ke tahun.</li> Untuk **film yang dirilis pada tahun 2001 dan 2024** memiliki **peningkatan pada pendapatan Gross World-nya**. Peningkatan dapat dikatakan cukup signifikan karena memiliki **perbandingan jumlah yang cukup besar**.
-        <li><strong>Perbandingan Tahunan:</strong> Bandingkan kontribusi pendapatan dari berbagai tahun secara visual.</li> Untuk top box office, **film pada tahun 2001** memiliki kontribusi **pendapatan yang paling sedikit (887 juta)** dikarenakan hanya film The Lord of the Rings: The Fellowship of the Ring yang masuk ke top box office. Konribusi paling besar yaitu dari film yang dirilis pada tahun 2024 (film selain The Lord of the Rings: The Fellowship of the Ring)
-    </ul>
-    <br>
+
+Bar chart di atas memvisualisasikan pendapatan Gross World dari film-film dalam dataset IMDB per tahun. Ini memberikan gambaran tentang bagaimana total pendapatan global dari film-film tersebut berubah dari tahun ke tahun. **Dimana batang sebelah kanan** menunjukkan **tahun 2001** dan **sebelah kiri tahun 2024**.
+    
+**Insights:**
+- **Tahun Terbaik:** Identifikasi tahun dengan pendapatan Gross World tertinggi.</li> **Tahun 2024 (diagram batang sebelah kanan) memiliki pendapatan Gross World tertinggi** dengan nilai yang ditunjukkan sebesar **1.66 B**. Hal tersebut dikarenakan total seluruh Gross World dari film yang dirilis pada tahun 2024. Begitu juga dengan diagram batang sebelah kanan (2001).
+- **Tren Pendapatan:** Amati apakah pendapatan Gross World cenderung meningkat, menurun, atau stabil dari tahun ke tahun.</li> Untuk **film yang dirilis pada tahun 2001 dan 2024** memiliki **peningkatan pada pendapatan Gross World-nya**. Peningkatan dapat dikatakan cukup signifikan karena memiliki **perbandingan jumlah yang cukup besar**.
+- **Perbandingan Tahunan:** Bandingkan kontribusi pendapatan dari berbagai tahun secara visual.</li> Untuk top box office, **film pada tahun 2001** memiliki kontribusi **pendapatan yang paling sedikit (887 juta)** dikarenakan hanya film The Lord of the Rings: The Fellowship of the Ring yang masuk ke top box office. Konribusi paling besar yaitu dari film yang dirilis pada tahun 2024 (film selain The Lord of the Rings: The Fellowship of the Ring)
+
     Visualisasi ini berguna untuk mendapatkan pemahaman tentang performa finansial tahunan film-film dalam dataset IMDB dan potensialnya untuk mengidentifikasi tahun-tahun yang paling sukses dari segi pendapatan global.
 </div>
 ''', unsafe_allow_html=True)
