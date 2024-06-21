@@ -82,7 +82,7 @@ st.plotly_chart(fig)
 st.markdown("""
 <div style="text-align: justify">
             
-Visualisasi ini menampilkan total penjualan produk berdasarkan promosi yang dilakukan. Setiap batang dalam diagram menunjukkan jumlah penjualan yang terkait dengan promosi tersebut.
+Visualisasi ini menampilkan total penjualan produk berdasarkan promosi yang dilakukan. Setiap batang dalam diagram menunjukkan jumlah penjualan yang terkait dengan promosi tersebut. Promosi
 
 **Insights:**
 - **Promosi Terbaik:** Identifikasi promosi yang menghasilkan penjualan tertinggi.
