@@ -90,9 +90,9 @@ Visualisasi ini menampilkan total penjualan produk berdasarkan promosi yang dila
 
 **Insights:**
 - **Promosi Terbaik:** Identifikasi promosi yang menghasilkan penjualan tertinggi.
-Dari 4 jenis promosi diatas, dapat diketahui bahwa jenis promosi No Discount memiliki total penjualan tertinggi sebesar 27.3 juta.
+Dari 4 jenis promosi diatas, dapat diketahui bahwa jenis promosi **No Discount** memiliki **total penjualan tertinggi** sebesar **27.3 juta**.
 - **Perbandingan Promosi:** Bandingkan kontribusi penjualan dari berbagai promosi secara visual.
-Dari visualisasi di atas, dapat diketahui bahwa penjualan tanpa adanya diskon memiliki kontribusi terbesar dibanding promosi lainnya seperti Touring 1000 Promotion (tidak ada penjualan), Touring 3000 Promotion (tidak ada penjualan), dan Volume Discount 11 to 14 (2 juta).
+Dari visualisasi di atas, dapat diketahui bahwa penjualan **tanpa adanya diskon memiliki kontribusi terbesar** dibanding promosi lainnya seperti Touring 1000 Promotion (tidak ada penjualan), Touring 3000 Promotion (tidak ada penjualan), dan Volume Discount 11 to 14 (2 juta).
 - **Efektivitas Promosi:** Evaluasi efektivitas berbagai promosi berdasarkan penjualan yang dihasilkan.
 Dapat dilihat dari visualisasi diatas bahwa dengan adanya promosi tersebut tidak berpengaruh besar terhadap peningkatan penjualan produk yang ditawarkan.
 
@@ -146,11 +146,11 @@ st.markdown("""
 
 **Insights:**
 - **Kontribusi Negara:** Identifikasi negara-negara yang menyumbang pendapatan penjualan terbesar.
-Dari 6 negara, dapat diketahui bahwa United States memiliki peran penting dalam peningkatan penjualan produk dikarenakan memiliki kontribusi paling besar (sebesar 50,7% dengan total penjualan sekitar 1 miliar) walaupun negara lain menghasilkan penjualan produk yang rendah.
+Dari 6 negara, dapat diketahui bahwa **United States** memiliki peran penting dalam peningkatan penjualan produk dikarenakan **memiliki kontribusi paling besar** (sebesar **50,7%** dengan **total penjualan** sekitar **1 miliar**) walaupun negara lain menghasilkan penjualan produk yang rendah.
 - **Pembandingan Wilayah:** Bandingkan proporsi penjualan antar negara secara visual.
-Dari diagram di atas, diketahui bahwa negara France memiliki proporsi paling sedikit dibandingkan negara lainnya sebesar 6.25%. Sedangkan Australia menghasilkan total penjualan terbesar kedua yaitu sebesar 362 juta (17.8%).
+Dari diagram di atas, diketahui bahwa negara **France** memiliki **proporsi paling sedikit** dibandingkan negara lainnya sebesar **6.25%**. Sedangkan **Australia** menghasilkan **total penjualan terbesar kedua** yaitu sebesar **362 juta (17.8%)**.
 - **Distribusi Penjualan:** Memahami sebaran geografis penjualan produk dan kontribusi masing-masing wilayah terhadap total penjualan.
-Dapat diketahui bahwa produk yang ditawarkan banyak dibutuhkan di negara United States dikarenakan banyak peminat olahraga sepeda di negara tersebut.
+Dapat diketahui bahwa produk yang ditawarkan **banyak dibutuhkan di negara United States** dikarenakan banyak peminat olahraga sepeda di negara tersebut.
 
 Visualisasi ini bermanfaat untuk analisis geografis penjualan, segmentasi pasar berdasarkan wilayah, dan untuk mendapatkan wawasan tentang performa penjualan berdasarkan negara penjualan. Dengan demikian perusahaan dapat memfokuskan penjualan di negara United States dan Australia karena negara memiliki pendapatan penjualan tertinggi. Namun, tidak menutup kemungkinan perusahaan juga gencar dalam mempromosikan produknya di negara lain.
             
@@ -180,7 +180,7 @@ Scatter plot ini mengilustrasikan hubungan antara harga produk dengan jumlah pes
 
 **Insights:**
 - **Korelasi Produk dan Pesanan:** Scatter plot membantu untuk melihat apakah ada hubungan atau pola antara harga produk dan jumlah pesanan.
-Posisi titik-titik yang berkelompok atau tersebar dapat mengindikasikan korelasi antara dua variabel ini. Berdasarkan Scatter Plot diatas, dapat diketahui bahwa kedua variabel tersebut (harga produk dan jumlah pesanan) tidak berhubungan karena arah korelasi lurus mendatar.
+Posisi titik-titik yang berkelompok atau tersebar dapat mengindikasikan korelasi antara dua variabel ini. Berdasarkan Scatter Plot diatas, dapat diketahui bahwa **kedua variabel tersebut (harga produk dan jumlah pesanan) tidak berhubungan karena arah korelasi lurus mendatar**.
             
 </div>
 """, unsafe_allow_html=True)
@@ -222,11 +222,11 @@ Grafik batang di atas menampilkan perkembangan penjualan tiap bulan berdasarkan 
 
 **Insights:**
 - **Bulan Terbaik:** Identifikasi bulan dengan total penjualan tertinggi.
-Diagram di atas menunjukkan bahwa terdapat 10 bulan untuk visualisasikan total penjualan tiap bulannya. Total penjualan tertinggi terjadi pada bulan ke-10 dan terendah pada bulan ke-5 dengan total penjualanya masing-masing yaitu sebesar 1.6 juta dan 467 ribu.
+Diagram di atas menunjukkan bahwa terdapat 10 bulan untuk visualisasikan total penjualan tiap bulannya. **Total penjualan tertinggi** terjadi pada **bulan ke-10** dan **terendah** pada **bulan ke-5** dengan total penjualanya masing-masing yaitu sebesar **1.6** juta dan **467 ribu**.
 - **Tren Penjualan:** Amati apakah terdapat tren peningkatan, penurunan, atau stabilitas penjualan dari bulan ke bulan.
-Dari data total penjualan tiap bulannya, dapat diketahui bahwa total penjualan bergerak secara stagnan dari waktu ke waktu dimana data bergerak meningkat di satu waktu lalu kemudian turun lagi. Total penjualan mengalami kenaikan petamam kalinya pada bulan ke-3 (767 ribu) kemudian turun pada bulan ke-5 (467 ribu) lalu mengalami kenaikan lagi pada bulan ke-10 (1.6 juta).
+Dari data total penjualan tiap bulannya, dapat diketahui bahwa **total penjualan** bergerak secara **stagnan** dari waktu ke waktu dimana **data bergerak meningkat di satu waktu** kemudian **turun lagi**. **Total penjualan** mengalami **kenaikan petamam kalinya** pada **bulan ke-3 (767 ribu)** kemudian turun pada **bulan ke-5 (467 ribu)** lalu mengalami **kenaikan lagi** pada **bulan ke-10 (1.6 juta)**.
 
-Visualisasi ini membantu dalam memahami pola penjualan bulanan, mengidentifikasi bulan-bulan dengan performa penjualan yang baik, serta untuk merencanakan strategi pemasaran dan operasional berdasarkan tren penjualan. Dengan demikian, dapat disimpulkan bahwa dari bulan ke bulan, performa penjualan Adventure Works cukup baik dikarenakan tidak adanya penurunan total penjualan produk secara signifikan. Selain itu, untuk tahun kedepannya perusahaan juga dapat mempromosikan produk baru dan menawarkan berbagai promosi yang menarik para pelanggan sekitar akhir tahun (bulan ke-8 hingga ke-10).
+Visualisasi ini membantu dalam memahami pola penjualan bulanan, mengidentifikasi bulan-bulan dengan performa penjualan yang baik, serta untuk merencanakan strategi pemasaran dan operasional berdasarkan tren penjualan. Dengan demikian, dapat disimpulkan bahwa dari bulan ke bulan, **performa penjualan Adventure Works cukup baik** dikarenakan **tidak adanya penurunan** total penjualan produk **secara signifikan**. Selain itu, untuk tahun kedepannya perusahaan juga dapat **mempromosikan produk baru dan menawarkan berbagai promosi yang menarik para pelanggan** sekitar **akhir tahun (bulan ke-8 hingga ke-10)**.
             
 </div>
 """, unsafe_allow_html=True)
