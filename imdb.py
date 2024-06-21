@@ -130,7 +130,7 @@ Berdasarkan Scatter Plot diatas, dapat diketahui bahwa **kedua variabel tersebut
 Visualisasi ini membantu pengguna untuk lebih memahami distribusi data dan hubungan antara variabel-variabel terpilih dalam dataset IMDB.
 
 </div>
-'''.format(x_variable=x_variable, y_variable=y_variable), unsafe_allow_html=True)
+''', unsafe_allow_html=True)
 
 
 ####################################################
