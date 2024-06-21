@@ -96,7 +96,7 @@ Dari visualisasi di atas, dapat diketahui bahwa penjualan **tanpa adanya diskon 
 - **Efektivitas Promosi:** Evaluasi efektivitas berbagai promosi berdasarkan penjualan yang dihasilkan.
 Dapat dilihat dari visualisasi diatas bahwa dengan adanya promosi tersebut tidak berpengaruh besar terhadap peningkatan penjualan produk yang ditawarkan.
 
-Visualisasi ini membantu dalam memahami performa penjualan produk berdasarkan promosi yang dilakukan, serta membantu dalam pengambilan keputusan untuk strategi promosi yang lebih efektif. Dengan demikian dapat disimpulkan bahwa tanpa adanya diskon penjualan perusahaan dapat meningkat. Namun, jika perusahaan ingin meningkatkan penjualannya dapat menerapkan promosi dengan potongan harga yang menarik pada produk-produk tertentu.  
+Visualisasi ini membantu dalam memahami performa penjualan produk berdasarkan promosi yang dilakukan, serta membantu dalam pengambilan keputusan untuk strategi promosi yang lebih efektif. Dengan demikian dapat disimpulkan bahwa **tanpa adanya diskon penjualan perusahaan dapat terus meningkat**. Namun, **jika perusahaan ingin meningkatkan penjualannya** dapat menerapkan **promosi** dengan **potongan harga yang menarik** pada produk-produk tertentu.  
             
 </div>
 """, unsafe_allow_html=True)
@@ -152,7 +152,7 @@ Dari diagram di atas, diketahui bahwa negara **France** memiliki **proporsi pali
 - **Distribusi Penjualan:** Memahami sebaran geografis penjualan produk dan kontribusi masing-masing wilayah terhadap total penjualan.
 Dapat diketahui bahwa produk yang ditawarkan **banyak dibutuhkan di negara United States** dikarenakan banyak peminat olahraga sepeda di negara tersebut.
 
-Visualisasi ini bermanfaat untuk analisis geografis penjualan, segmentasi pasar berdasarkan wilayah, dan untuk mendapatkan wawasan tentang performa penjualan berdasarkan negara penjualan. Dengan demikian perusahaan dapat memfokuskan penjualan di negara United States dan Australia karena negara memiliki pendapatan penjualan tertinggi. Namun, tidak menutup kemungkinan perusahaan juga gencar dalam mempromosikan produknya di negara lain.
+Visualisasi ini bermanfaat untuk analisis geografis penjualan, segmentasi pasar berdasarkan wilayah, dan untuk mendapatkan wawasan tentang performa penjualan berdasarkan negara penjualan. Dengan demikian perusahaan dapat **memfokuskan penjualan di negara United States dan Australia** karena negara memiliki **pendapatan penjualan tertinggi**. Namun, tidak menutup kemungkinan perusahaan juga gencar dalam mempromosikan produknya di negara lain.
             
 </div>
 """, unsafe_allow_html=True)
