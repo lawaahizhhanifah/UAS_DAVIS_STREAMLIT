@@ -111,7 +111,7 @@ st.subheader("***Relationship***")
 #st.plotly_chart(fig)
 
 # Plot scatter plot dengan Plotly
-fig = px.scatter(data, x='Gross_US', y='Gross_World', title="Hubungan Gross_US Dengan Gross_World",
+fig = px.scatter(df, x='Gross_US', y='Gross_World', title="Hubungan Gross_US Dengan Gross_World",
                  labels={'Gross_US': 'Gross US', 'Gross_World': 'Gross World'})
 st.plotly_chart(fig)
 
